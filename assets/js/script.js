@@ -1,6 +1,5 @@
 'use strict';
-
-$(function() {
+$(function () {
 
 
   /*
@@ -54,7 +53,7 @@ $(function() {
     |
     */
 
-    reCaptchaSiteKey:  '6Ldaf0MUAAAAAHdsMv_7dND7BSTvdrE6VcQKpM-n',
+    reCaptchaSiteKey: '6Ldaf0MUAAAAAHdsMv_7dND7BSTvdrE6VcQKpM-n',
 
     // See available languages: https://developers.google.com/recaptcha/docs/language
     reCaptchaLanguage: '',
@@ -99,6 +98,12 @@ $(function() {
   |
   */
 
+  $(document).ready(function () {
+    if (window.location.href.indexOf('#thankyou') != -1) {
+      $('#modal-thankyou').modal('show');
+    }
+
+  });
 
 
 
