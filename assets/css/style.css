@@ -2,3 +2,7 @@
     height: 60px;
     filter: grayscale(100%);
 }
+
+.service-icon {
+    font-size: 150px;
+}
