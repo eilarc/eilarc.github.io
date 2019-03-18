@@ -3,6 +3,11 @@
     filter: grayscale(100%);
 }
 
+.tech-sm img {
+    height: 30px;
+    filter: grayscale(100%);
+}
+
 .service-icon {
     font-size: 150px;
 }
