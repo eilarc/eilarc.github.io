@@ -13,7 +13,7 @@
 
   <!-- Styles -->
   <link href="assets/css/page.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -52,10 +52,12 @@
       <section class="navbar-mobile">
         <nav class="nav nav-navbar ml-auto">
           <a class="nav-link" href="#home">Home</a>
-          <a class="nav-link" href="#technologies">Technologies</a>
           <a class="nav-link" href="#services">Services</a>
-          <a class="nav-link" href="/blog">Blog</a>
+          <a class="nav-link" href="#process">How it works!</a>
+          <a class="nav-link" href="#technologies">Technologies</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
           <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="/blog">Blog</a>
         </nav>
       </section>
     </div>
@@ -91,196 +93,13 @@
 
   <!-- Main Content -->
   <main class="main-content">
-    <!--
-      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-      | Technologies we work with
-      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-      !-->
-    <section class="section bg-gray" id="technologies">
-      <div class="container">
-        <header class="section-header">
-          <h2>Technology Expertise</h2>
-          <hr>
-          <p class="lead">Our architects design and develop extendible, high performant and
-            scalable appllications with latest technologies.</p>
-        </header>
-        <div class="row gap-y text-center">
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/nodejs_logo.png" alt="Nodejs logo">
-            </p>
-            <h5>Nodejs</h5>
-            <p>Fast, scalable and light weight Javascript runtime for backend</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-                <img src="assets/img/expressjslogo.png" alt="Expressjs logo">
-            </p>
-            <h5>Expressjs</h5>
-            <p>Robust, fast, flexible and minimul nodejs framework for building APIs, web and mobile applications</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/vue_logo.png" alt="Vuejs logo">
-            </p>
-            <h5>Vuejs</h5>
-            <p>Progressive Javascript framework for building user interfaces and SPAs</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/nuxtlogo.png" alt="Nuxtjs logo">
-            </p>
-            <h5>Nuxtjs</h5>
-            <p>Vuejs web application framework for writing SSR, Static and SPAs with modular architecture</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/nativescript_logo.png" alt="Nativescript logo">
-            </p>
-            <h5>Nativescript</h5>
-            <p>Cross platform native mobile app development framework</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/socketio.png" alt="Socketio logo">
-            </p>
-            <h5>Socket.io</h5>
-            <p>Javascript library for real-time applications, chat, analytics and bidirectional communication</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/mongodb_logo.png" alt="MongoDB logo">
-            </p>
-            <h5>MongoDB</h5>
-            <p>Object oriented, simple, dynamic and scalable NoSQL database.</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-                <img src="assets/img/mongoose_logo.png" alt="Mongoosejs logo">
-            </p>
-            <h5>Mongoose</h5>
-            <p>Object Data Modeling library for MongoDB, we write extendible database design use Mongoose</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/electron_logo.png" alt="Electron logo">
-            </p>
-            <h5>Electron</h5>
-            <p>Cross platform desktop application framework</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/redis_logo.png" alt="Redis logo">
-            </p>
-            <h5>Redis</h5>
-            <p>In memory cache, we write high performant applications using Redis integration</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-                <img src="assets/img/rabbitmq_logo.png" alt="RabbitMQ logo">
-            </p>
-            <h5>RabbitMQ/AWS SQS/Azure Service BUS</h5>
-            <p>Message broker and queuing system for high scalability</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-                <img src="assets/img/jenkins_logo.png" alt="Jenkins logo">
-            </p>
-            <h5>CI/CD Pipelines</h5>
-            <p>Continus delivery using CI/CD tools like Jenkins and other managed services</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-              <img src="assets/img/kubernetes_logo.png" alt="Kubernetes logo">
-            </p>
-            <h5>Docker & Kubernetes</h5>
-            <p>Containerised applications for faster delivery, scale limitless with Kubernetes</p>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-              <p class="tech-mm">
-                <img src="assets/img/aws_logo.png" alt="AWS logo">
-            </p>
-            <h5>Cloud</h5>
-            <p>We have expertise with all major cloud platforms including but not limited to AWS, Azure, Digital Ocean</p>
-          </div>
-          <div class="col-md-6 col-lg-3">
-              <p class="tech-mm">
-                <img src="assets/img/blockchain_logo.png" alt="Blockchain logo">
-            </p>
-            <h5>Blockchain</h5>
-            <p>We develop custom blockchain solutions from scratch as per the client requirements</p>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <p class="tech-mm">
-                <img src="assets/img/iot_logo.png" alt="IOT logo">
-            </p>
-            <h5>MQTT/IOT</h5>
-            <p>We have developed custom solutions for IOT with latest cloud and IOT technologies</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--
-    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-    | Tech
-    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-    !-->
-    <section class="section py-6">
-      <div class="container">
-
-        <div class="partner tech-sm">
-          <img src="assets/img/stellar_new_logo.png" alt="tech 1">
-          <img src="assets/img/rust_logo.png" alt="tech 2">
-          <img src="assets/img/JavaScript_logo.png" alt="tech 4">
-          <img src="assets/img/eth_logo.png" alt="tech 4">
-          <img src="assets/img/gulp_logo.png" alt="tech 5">
-          <img src="assets/img/npm_logo.png" alt="tech 6">
-          <img src="assets/img/ts_logo.png" alt="tech 7">
-          <img src="assets/img/chai_mocha_logo.png" alt="tech 8">
-          <img src="assets/img/hyperledger_logo.png" alt="tech 8">
-        </div>
-
-      </div>
-    </section>
-    <!--
-    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-    | CTA
-    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-    !-->
-    <section class="section py-7" style="background-color: #8ea6e6">
-      <div class="container">
-        <div class="row gap-y align-items-center">
-          <div class="col-md-9">
-            <h4 class="mb-0 text-white text-center text-md-left">Convert your idea into Reality!</h4>
-          </div>
-
-          <div class="col-md-3 text-center text-md-right">
-            <a class="btn btn-lg btn-round btn-light" href="#contact">Let's Connect</a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!--
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       | Solution
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       !-->
-    <section id="services" class="section">
+    <section class="section bg-gray" id="services">
       <div class="container">
         <header class="section-header">
           <small>Solution</small>
@@ -289,12 +108,28 @@
           <p class="lead">We implement creative solutions for you</p>
         </header>
 
+        <div class="row gap-y align-items-center">
+          <div class="col-md-6 mr-auto">
+            <h4>AI & ML Engines</h4>
+            <p>
+              Bring intelligence into your products with our AI/ML solutions. Gather useful insights from your email communications, face recognition, video processing and analytics to upgrade your business. The applications of AI/ML are limitless.
+            </p>
+            <a class="btn btn-round bg-gradient-danger text-white" href="#contact">Let's Get in Touch</a>
+          </div>
+
+          <div class="col-md-5 text-center">
+              <i class="icon-genius service-icon text-muted"></i>
+          </div>
+        </div>
+
+
+        <hr class="my-8">
 
         <div class="row gap-y align-items-center">
           <div class="col-md-6 ml-auto">
             <h4>Mobile Development</h4>
-            <p> Reduce development time and maintenance with native cross platform mobile apps built with Nativescript.
-              Performance and UX are key factors in mobile apps which users love. We would love to help build your mobile products.
+            <p> Reduce development time and maintenance with lighting fast native cross platform mobile apps built with Flutter.
+              Performance and UX are key factors in mobile apps which users love, our expert design and engineering brings both into your apps. We would love to help build your mobile products.
 
             </p>
             <a class="btn btn-round bg-gradient-primary text-white" href="#contact">Let's Get in Touch</a>
@@ -347,8 +182,395 @@
 
       </div>
     </section>
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | How it works
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <section class="section" id="process">
+      <div class="container">
+        <header class="section-header">
+          <h2>How Does It Work?</h2>
+          <hr>
+          <p class="lead">We provide the complete suit of processes and tools so you never have to worry about finding different pieces of your product. Let us help you with your idea and concept to requirement creation and final product.</p>
+        </header>
 
-    <!-- Portfolio HERE -->
+        <div class="row gap-y align-items-center py-7">
+          <div class="col-md-6 text-center">
+            <img width="350px" src="/assets/img/idea_discussion.png" alt="...">
+          </div>
+
+          <div class="col-md-5 ml-auto text-center text-md-left">
+            <p class="lead-9 fw-900 lh-1 opacity-10">01</p>
+            <h3>Idea and concept discussion</h3>
+            <p>The first step for us is to understand your concept from A to Z, this help us in creating a requirement set that best describes your need.</p>
+          </div>
+        </div>
+
+
+        <div class="row gap-y align-items-center py-7">
+          <div class="col-md-5 mr-auto text-center text-md-left">
+            <p class="lead-9 fw-900 lh-1 opacity-10">02</p>
+            <h3>We create a requirement document</h3>
+            <p>Understanding you product is very important for us, so we can deliver what you exactly need. The requirement document helps you and us to form a consensus of our understanding and what is required to be built.</p>
+          </div>
+
+          <div class="col-md-6 text-center order-first order-md-last">
+            <img width="350px" src="/assets/img/requirement_doc.png" alt="Requirement Doc Image">
+          </div>
+        </div>
+
+
+        <div class="row gap-y align-items-center py-7">
+          <div class="col-md-6 text-center">
+            <img width="350px" src="/assets/img/delivery_plan.png" alt="Delivery Plan Image">
+          </div>
+
+          <div class="col-md-5 ml-auto text-center text-md-left">
+            <p class="lead-9 fw-900 lh-1 opacity-10">03</p>
+            <h3>Delivery Plan</h3>
+            <p>We know that getting into market is your top most priority, hence we plan the phases of the product delivery, you choose the delivery time as per your need and we start working on your brainchild.</p>
+          </div>
+        </div>
+
+
+        <div class="row gap-y align-items-center py-7">
+          <div class="col-md-5 text-center text-md-left">
+            <p class="lead-9 fw-900 lh-1 opacity-10">04</p>
+            <h3>Architecture & Design</h3>
+            <p>Building a stable product is our most priority, every product we build goes through an intensive design and architecture process. We follow this process to insure that your product is always performing top notch and scalable as your user base grows. This also helps in maintaining your product in future as well as adding a new feature can be done with ease.</p>
+          </div>
+
+          <div class="col-md-6 ml-auto text-center order-first order-md-last">
+            <img width="350px" src="/assets/img/architecture_design.png" alt="...">
+          </div>
+        </div>
+
+        <div class="row gap-y align-items-center py-7">
+          <div class="col-md-6 text-center">
+            <img width="350px" src="/assets/img/development.png" alt="...">
+          </div>
+
+          <div class="col-md-5 ml-auto text-center text-md-left">
+            <p class="lead-9 fw-900 lh-1 opacity-10">05</p>
+            <h3>Development</h3>
+            <p>We start working on your product with phases and continuously making it available for you to play with at every stage of the development.</p>
+          </div>
+        </div>
+
+        <div class="row gap-y align-items-center py-7">
+          <div class="col-md-5 text-center text-md-left">
+            <p class="lead-9 fw-900 lh-1 opacity-10">06</p>
+            <h3>Make it LIVE</h3>
+            <p>The final stage is to make the product live by deploying the solution on cloud with production grade scalability and security. We will also make your application available on play store and apple store with detailed information.</p>
+          </div>
+
+          <div class="col-md-6 ml-auto text-center order-first order-md-last">
+            <img width="350px" src="/assets/img/make_it_live.png" alt="...">
+          </div>
+        </div>
+
+        <div class="row gap-y align-items-center py-7">
+          <div class="col-md-6 text-center">
+            <img width="350px" src="/assets/img/support.png" alt="Support Image">
+          </div>
+
+          <div class="col-md-5 ml-auto text-center text-md-left">
+            <p class="lead-9 fw-900 lh-1 opacity-10">07</p>
+            <h3>Support</h3>
+            <p>We know that customer satisfaction is what makes a business successful and hence we include the support for the product we have built.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!--
+    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+    | CTA
+    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+    !-->
+    <section class="section py-7" style="background-color: #8ea6e6">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+          <div class="col-md-9">
+            <h4 class="mb-0 text-white text-center text-md-left">Convert your idea into Reality!</h4>
+          </div>
+
+          <div class="col-md-3 text-center text-md-right">
+            <a class="btn btn-lg btn-round btn-light" href="#contact">Let's Connect</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Technologies we work with
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <section class="section" id="technologies">
+      <div class="container">
+        <header class="section-header">
+          <h2>Technology Expertise</h2>
+          <hr>
+          <p class="lead">Our architects design and develop extendible, high performance and
+            scalable applications with latest technologies.</p>
+        </header>
+        <div class="row gap-y text-center">
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/tensorflow_logo.png" alt="Nodejs logo">
+            </p>
+            <h5>AI & ML</h5>
+            <p>We work with major AI/ML libraries and tools as well as AI/ML cloud services</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/nodejs_logo.png" alt="Nodejs logo">
+            </p>
+            <h5>Nodejs</h5>
+            <p>Fast, scalable and light weight Javascript runtime for backend</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+                <img src="assets/img/expressjslogo.png" alt="Expressjs logo">
+            </p>
+            <h5>Expressjs</h5>
+            <p>Robust, fast, flexible and minimul nodejs framework for building APIs, web and mobile applications</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/vue_logo.png" alt="Vuejs logo">
+            </p>
+            <h5>Vuejs</h5>
+            <p>Progressive Javascript framework for building user interfaces and SPAs</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/nuxtlogo.png" alt="Nuxtjs logo">
+            </p>
+            <h5>Nuxtjs</h5>
+            <p>Vuejs web application framework for writing SSR, Static and SPAs with modular architecture</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/flutter_logo.png" alt="Flutter logo">
+            </p>
+            <h5>Flutter</h5>
+            <p>Lighting fast cross platform mobile app development framework by Google</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/socketio.png" alt="Socketio logo">
+            </p>
+            <h5>Socket.io</h5>
+            <p>Javascript library for real-time applications, chat, analytics and bidirectional communication</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/mongodb_logo.png" alt="MongoDB logo">
+            </p>
+            <h5>MongoDB</h5>
+            <p>Object oriented, simple, dynamic and scalable NoSQL database.</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/nativescript_logo.png" alt="Nativescript logo">
+            </p>
+            <h5>Nativescript</h5>
+            <p>Cross platform native mobile app development framework</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/electron_logo.png" alt="Electron logo">
+            </p>
+            <h5>Electron</h5>
+            <p>Cross platform desktop application framework</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/redis_logo.png" alt="Redis logo">
+            </p>
+            <h5>Redis</h5>
+            <p>In memory cache, we write high performant applications using Redis integration</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+                <img src="assets/img/rabbitmq_logo.png" alt="RabbitMQ logo">
+            </p>
+            <h5>RabbitMQ/AWS SQS/Azure Service BUS</h5>
+            <p>Message broker and queuing system for high scalability</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+                <img src="assets/img/jenkins_logo.png" alt="Jenkins logo">
+            </p>
+            <h5>CI/CD Pipelines</h5>
+            <p>Continus delivery using CI/CD tools like Jenkins and other managed services</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+              <img src="assets/img/kubernetes_logo.png" alt="Kubernetes logo">
+            </p>
+            <h5>Docker & Kubernetes</h5>
+            <p>Containerised applications for faster delivery, scale limitless with Kubernetes</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+              <p class="tech-mm">
+                <img src="assets/img/aws_logo.png" alt="AWS logo">
+            </p>
+            <h5>Cloud</h5>
+            <p>We have expertise with all major cloud platforms including but not limited to AWS, Azure, Google Cloud</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+              <p class="tech-mm">
+                <img src="assets/img/blockchain_logo.png" alt="Blockchain logo">
+            </p>
+            <h5>Blockchain</h5>
+            <p>We develop custom blockchain solutions from scratch as per the client requirements</p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+                <img src="assets/img/iot_logo.png" alt="IOT logo">
+            </p>
+            <h5>MQTT/IOT</h5>
+            <p>We have developed custom solutions for IOT with latest cloud and IOT technologies</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+                <img src="assets/img/elastic_logo.png" alt="IOT logo">
+            </p>
+            <h5>Elasticsearch</h5>
+            <p>Bring fast, real time analytics for your data.</p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <p class="tech-mm">
+                <img src="assets/img/kibana_logo.png" alt="IOT logo">
+            </p>
+            <h5>Kibana</h5>
+            <p>Powerful visualization dashboard</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+    | Tech
+    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+    !-->
+    <section class="section py-6 bg-gray">
+      <div class="container">
+
+        <div class="partner tech-sm">
+          <img src="assets/img/stellar_new_logo.png" alt="tech 1">
+          <img src="assets/img/rust_logo.png" alt="tech 2">
+          <img src="assets/img/JavaScript_logo.png" alt="tech 4">
+          <img src="assets/img/eth_logo.png" alt="tech 4">
+          <img src="assets/img/gulp_logo.png" alt="tech 5">
+          <img src="assets/img/npm_logo.png" alt="tech 6">
+          <img src="assets/img/ts_logo.png" alt="tech 7">
+          <img src="assets/img/chai_mocha_logo.png" alt="tech 8">
+          <img src="assets/img/hyperledger_logo.png" alt="tech 8">
+        </div>
+
+      </div>
+    </section>
+    <!--
+    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+    | Portfolio
+    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+    !-->
+    <section class="section" id="portfolio">
+        <div class="container">
+          <header class="section-header">
+            <small>Portfolio</small>
+            <h2>Project - Xavent</h2>
+            <hr>
+            <p class="lead">Xavent is a people sourcing application for the events in the town.</p>
+          </header>
+
+
+          <div class="row">
+
+            <div class="col-6 mx-auto">
+              <div data-provide="slider" data-dots="true" data-slides-to-show="3">
+                <div class="p-2"><img width="200px" src="/assets/img/app/screen1.jpg"></div>
+                <div class="p-2"><img width="200px" src="/assets/img/app/screen2.jpg"></div>
+                <div class="p-2"><img width="200px" src="/assets/img/app/screen3.jpg"></div>
+                <div class="p-2"><img width="200px" src="/assets/img/app/screen4.jpg"></div>
+                <div class="p-2"><img width="200px" src="/assets/img/app/screen5.jpg"></div>
+                <div class="p-2"><img width="200px" src="/assets/img/app/screen6.jpg"></div>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <h5 class="mt-7">Project detail</h5>
+            </div>
+
+            <div class="col-md-4">
+              <p>Xavent helps users to apply to work for events with different categories. The app is one stop portal for users to find events happening in town, work and track their earning.</p>
+              <p>The admin dashboard allows to manage the events and application to provide necessary man power to event management companies.</p>
+            </div>
+
+            <div class="col-md-3 ml-auto">
+              <ul class="project-detail">
+                <li>
+                  <strong>Client</strong>
+                  <span>Maventon Technologies</span>
+                </li>
+
+                <li>
+                  <strong>Date</strong>
+                  <span>Sep 30, 2019</span>
+                </li>
+
+                <li>
+                  <strong>Technologies</strong>
+                  <span>Flutter, Nodejs, MongoDB, Vuejs, Google Cloud</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-4">
+              <ul class="project-detail">
+                <li>
+                  <strong>Website</strong>
+                  <a target="_blank" href="https://xavent.in">xavent.in</a>
+                </li>
+
+                <li>
+                  <strong>App</strong>
+                  <div class="gap-xy-2 mt-2">
+                    <!-- <a class="btn btn-lg btn-round btn-dark" href="#"><i class="fa fa-apple lead-1 mr-2"></i> App Store</a> -->
+                    <a class="btn btn-lg btn-round btn-dark" target="_blank" href="https://play.google.com/store/apps/details?id=in.xavent.user&hl=en"><i class="fa fa-android lead-1 mr-2"></i> Google Play</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
 
 
     <!-- Contact -->
@@ -474,7 +696,7 @@
 
     <!-- Scripts -->
     <script src="assets/js/page.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
 
 </body>
 
