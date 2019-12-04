@@ -12,6 +12,13 @@
   <!-- Styles -->
   <link href="assets/css/page.min.css" rel="stylesheet">
   <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-M4R255G');</script>
+  <!-- End Google Tag Manager -->
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -36,7 +43,10 @@
 </head>
 
 <body>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4R255G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark" data-navbar="fixed">
@@ -52,12 +62,12 @@
 
       <section class="navbar-mobile">
         <nav class="nav nav-navbar ml-auto">
-          <a class="nav-link" href="#home">Home</a>
-          <a class="nav-link" href="#services">Services</a>
-          <a class="nav-link" href="#process">How it works!</a>
-          <a class="nav-link" href="#technologies">Technologies</a>
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-          <a class="nav-link" href="#contact">Contact</a>
+          <a id="homeLink" class="nav-link" href="#home">Home</a>
+          <a id="servicesLink" class="nav-link" href="#services">Services</a>
+          <a id="processLink" class="nav-link" href="#process">How it works!</a>
+          <a id="technologiesLink" class="nav-link" href="#technologies">Technologies</a>
+          <a id="portfolioLink" class="nav-link" href="#portfolio">Portfolio</a>
+          <a id="contactLink" class="nav-link" href="#contact">Contact</a>
           <!-- <a class="nav-link" href="/blog">Blog</a> -->
         </nav>
       </section>
@@ -78,7 +88,7 @@
             applications. Our expertise enables us to develop high performant, scalable and well structured applications
             with cloud and latest technologies.</p>
           <br>
-          <a class="btn btn-xl btn-round btn-info" href="#contact">Let's Connect</a>
+          <a id="ctaHome" class="btn btn-xl btn-round btn-info" href="#contact">Let's Connect</a>
         </div>
 
 
@@ -115,7 +125,7 @@
             <p>
               Bring intelligence into your products with our AI/ML solutions. Gather useful insights from your email communications, face recognition, video processing and analytics to upgrade your business. The applications of AI/ML are limitless.
             </p>
-            <a class="btn btn-round bg-gradient-danger text-white" href="#contact">Let's Get in Touch</a>
+            <a id="ctaAIML" class="btn btn-round bg-gradient-danger text-white" href="#contact">Let's Get in Touch</a>
           </div>
 
           <div class="col-md-5 text-center">
@@ -133,7 +143,7 @@
               Performance and UX are key factors in mobile apps which users love, our expert design and engineering brings both into your apps. We would love to help build your mobile products.
 
             </p>
-            <a class="btn btn-round bg-gradient-primary text-white" href="#contact">Let's Get in Touch</a>
+            <a id="ctaMobile" class="btn btn-round bg-gradient-primary text-white" href="#contact">Let's Get in Touch</a>
           </div>
 
           <div class="col-md-5 order-md-first text-center">
@@ -152,7 +162,7 @@
               Modular web applications with Vuejs, Nodejs, MongoDB and all the tools to scale your product limitless.
               We carefully analyse your idea and implement it with extendability in mind.
             </p>
-            <a class="btn btn-round bg-gradient-dark text-white" href="#contact">Let's Get in Touch</a>
+            <a id="ctaWeb" class="btn btn-round bg-gradient-dark text-white" href="#contact">Let's Get in Touch</a>
           </div>
 
           <div class="col-md-5 text-center">
@@ -172,7 +182,7 @@
               applications including but not limited to Chat, Realtime applications, SAAS platforms, which scales
               limitless. Also documentation is a key factor in API development hence we follow standard OpenAPI Specification.
             </p>
-            <a class="btn btn-round bg-gradient-info text-white" href="#contact">Know more</a>
+            <a id="ctaAPI" class="btn btn-round bg-gradient-info text-white" href="#contact">Know more</a>
           </div>
 
           <div class="col-md-5 order-md-first text-center">
@@ -299,7 +309,7 @@
           </div>
 
           <div class="col-md-3 text-center text-md-right">
-            <a class="btn btn-lg btn-round btn-light" href="#contact">Let's Connect</a>
+            <a id="ctaIdea" class="btn btn-lg btn-round btn-light" href="#contact">Let's Connect</a>
           </div>
         </div>
       </div>
@@ -554,14 +564,14 @@
               <ul class="project-detail">
                 <li>
                   <strong>Website</strong>
-                  <a target="_blank" href="https://xavent.in">xavent.in</a>
+                  <a id="xaventLink" target="_blank" href="https://xavent.in">xavent.in</a>
                 </li>
 
                 <li>
                   <strong>App</strong>
                   <div class="gap-xy-2 mt-2">
                     <!-- <a class="btn btn-lg btn-round btn-dark" href="#"><i class="fa fa-apple lead-1 mr-2"></i> App Store</a> -->
-                    <a class="btn btn-lg btn-round btn-dark" target="_blank" href="https://play.google.com/store/apps/details?id=in.xavent.user&hl=en"><i class="fa fa-android lead-1 mr-2"></i> Google Play</a>
+                    <a id="xaventApp" class="btn btn-lg btn-round btn-dark" target="_blank" href="https://play.google.com/store/apps/details?id=in.xavent.user&hl=en"><i class="fa fa-android lead-1 mr-2"></i> Google Play</a>
                   </div>
                 </li>
               </ul>
@@ -616,16 +626,16 @@
             <hr class="d-lg-none">
             <!-- <h5>Bengaluru, India</h5> -->
             <p class="social">hello@eilarc.io
-              <a href="mailto:hello@eilarc.io">
+              <a id="contactEmail" href="mailto:hello@eilarc.io">
                 <i class="fa fa-envelope"></i>
               </a>
             </p>
             <div class="fw-400">Follow us</div>
             <div class="social social-sm social-inline">
-              <a class="social-twitter" href="https://twitter.com/eilarcio" target="_blank">
+              <a id="contactTwitter" class="social-twitter" href="https://twitter.com/eilarcio" target="_blank">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a class="social-linkedin" href="https://www.linkedin.com/company/eilarc/" target="_blank">
+              <a id="contactLinkedin" class="social-linkedin" href="https://www.linkedin.com/company/eilarc/" target="_blank">
                 <i class="fa fa-linkedin"></i>
               </a>
             </div>
