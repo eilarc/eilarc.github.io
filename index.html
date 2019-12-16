@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="We are a software development company providing mobile and web development, SaaS Platforms, Fintech Apps, DevOps services and analytics platforms">
-  <meta name="keywords" content="Software Development, software company, SaaS Platform, Fintech Platforms, remittance application, DevOps">
+  <meta name="keywords" content="web development, app development, Software Development, software company, SaaS Platform, Fintech Platforms, remittance application, DevOps">
 
   <title>Eilarc - Software Development Company - SaaS Platforms - Mobile and Web Apps</title>
 
@@ -64,12 +64,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <nav class="nav nav-navbar ml-auto">
           <a id="homeLink" class="nav-link" href="#home">Home</a>
           <a id="servicesLink" class="nav-link" href="#services">Services</a>
-          <a id="processLink" class="nav-link" href="#process">How it works!</a>
+          <a id="processLink" class="nav-link" href="#whyeilarc">Why choose Eilarc?</a>
           <a id="technologiesLink" class="nav-link" href="#technologies">Technologies</a>
           <a id="portfolioLink" class="nav-link" href="#portfolio">Portfolio</a>
-          <a id="contactLink" class="nav-link" href="#contact">Contact</a>
+          <!-- <a id="contactLink" class="nav-link" href="#contact">Contact</a> -->
           <!-- <a class="nav-link" href="/blog">Blog</a> -->
         </nav>
+        <button type="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#modal-connect">
+          Free Quote
+        </button>
       </section>
     </div>
   </nav>
@@ -77,25 +80,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <!-- Header -->
-  <header class="header h-fullscreen" id="home">
+  <header class="header h-fullscreen" id="home" style="background-image: url(../assets/img/landing_page.jpg);">
+    <div class="overlay opacity-95" style="background-image: linear-gradient(135deg, #fff 10%, #f2fcfe 40%, transparent 100%);"></div>
     <div class="container">
       <div class="row align-items-center h-100">
 
-        <div class="col-md-5 mr-auto">
+        <div class="col-md-6">
           <h1 class="fw-600">Expert Web, Mobile and Backend engineers</h1>
           <br>
-          <p class="lead-2">We are experienced Nodejs developers with years of experience in developing web and mobile
-            applications. Our expertise enables us to develop high performant, scalable and well structured applications
+          <p class="lead-2">We are experienced engineers and architects with years of experience in developing web, mobile
+            AI/ML, IoT, and Cloud solutions. Our expertise enables us to develop high performance, scalable and secure applications
             with cloud and latest technologies.</p>
           <br>
-          <a id="ctaHome" class="btn btn-xl btn-round btn-info" href="#contact">Let's Connect</a>
+          <a id="ctaHome" class="btn btn-xl btn-round btn-info" href="#whyeilarc">Why Choose Eilarc?</a>
         </div>
 
+        <div class="col-md-2"></div>
 
-        <div class="col-md-6">
-          <img src="/assets/img/team_work.png" alt="team work">
+        <div class="col-md-4 bg-white px-7 py-7 rounded shadow-4 text-center">
+          <h2>Let's get in touch</h2>
+          <form class="mt-5" action="https://formspree.io/hello@eilarc.io" method="POST">
+            <div>
+              <div class="form-row">
+                <input type="hidden" name="_next" value="https://eilarc.io/#thankyou" />
+                <div class="form-group col-md-6">
+                  <input class="form-control form-control-lg" type="text" name="firstname" placeholder="First Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <input class="form-control form-control-lg" type="text" name="lastname" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input class="form-control form-control-lg" type="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-control-lg" rows="3" placeholder="What do you have in mind?" name="message" required></textarea>
+              </div>
+              <button class="btn btn-lg btn-primary" type="submit">Get A Free Consultation</button>
+            </div>
+          </form>
         </div>
-
       </div>
     </div>
   </header>
@@ -122,14 +146,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row gap-y align-items-center">
           <div class="col-md-6 mr-auto">
             <h4>AI & ML Engines</h4>
-            <p>
-              Bring intelligence into your products with our AI/ML solutions. Gather useful insights from your email communications, face recognition, video processing and analytics to upgrade your business. The applications of AI/ML are limitless.
+            <p class="lead">
+              Bring <span class="text-warning"><strong>intelligence</strong></span> into your products with our AI/ML solutions.
+              Gather useful insights from your email communications and analytics to <span class="text-info"><strong>upgrade your business</strong></span>.
+              The applications of AI/ML are limitless.
             </p>
-            <a id="ctaAIML" class="btn btn-round bg-gradient-danger text-white" href="#contact">Let's Get in Touch</a>
+            <ul class="list-unstyled">
+              <li>
+                <span class="badge badge-circle badge-danger mr-2"><i class="fa fa-check text-white"></i></span>
+                Conversational
+              </li>
+              <li>
+                <span class="badge badge-circle badge-danger mr-2"><i class="fa fa-check text-white"></i></span>
+                Classification
+              </li>
+              <li>
+                <span class="badge badge-circle badge-danger mr-2"><i class="fa fa-check text-white"></i></span>
+                Prediction
+              </li>
+              <li>
+                <span class="badge badge-circle badge-danger mr-2"><i class="fa fa-check text-white"></i></span>
+                Cloud ML/AI Services
+              </li>
+              <li>
+                <span class="badge badge-circle badge-danger mr-2"><i class="fa fa-check text-white"></i></span>
+                Custom Models
+              </li>
+            </ul>
+            <a id="ctaAIML" class="btn btn-round bg-gradient-danger text-white mt-5" href="#contact">Let's Get in Touch</a>
           </div>
 
           <div class="col-md-5 text-center">
-              <i class="icon-genius service-icon text-muted"></i>
+              <img width="450px" src="/assets/img/ai_ml.png" alt="AI ML Image">
           </div>
         </div>
 
@@ -139,15 +187,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row gap-y align-items-center">
           <div class="col-md-6 ml-auto">
             <h4>Mobile Development</h4>
-            <p> Reduce development time and maintenance with lighting fast native cross platform mobile apps built with Flutter.
-              Performance and UX are key factors in mobile apps which users love, our expert design and engineering brings both into your apps. We would love to help build your mobile products.
-
+            <p class="lead"> Reduce development time and maintenance with <span class="text-warning"><strong>lighting fast</strong></span> native cross platform mobile apps built with Flutter.
+              Our experts build solutions which <span class="text-info"><strong>scales limitless</strong></span> with ultra secure backend.
             </p>
-            <a id="ctaMobile" class="btn btn-round bg-gradient-primary text-white" href="#contact">Let's Get in Touch</a>
+            <ul class="list-unstyled">
+              <li>
+                <span class="badge badge-circle badge-primary mr-2"><i class="fa fa-check text-white"></i></span>
+                UI/UX Designs
+              </li>
+              <li>
+                <span class="badge badge-circle badge-primary mr-2"><i class="fa fa-check text-white"></i></span>
+                Modern Technology
+              </li>
+              <li>
+                <span class="badge badge-circle badge-primary mr-2"><i class="fa fa-check text-white"></i></span>
+                Lighting Fast Performance
+              </li>
+              <li>
+                <span class="badge badge-circle badge-primary mr-2"><i class="fa fa-check text-white"></i></span>
+                High Scalability and Secure Backend
+              </li>
+              <li>
+                <span class="badge badge-circle badge-primary mr-2"><i class="fa fa-check text-white"></i></span>
+                Localization
+              </li>
+              <li>
+                <span class="badge badge-circle badge-primary mr-2"><i class="fa fa-check text-white"></i></span>
+                Social Media Login
+              </li>
+            </ul>
+            <a id="ctaMobile" class="btn btn-round bg-gradient-primary text-white mt-5" href="#contact">Let's Connect</a>
           </div>
 
           <div class="col-md-5 order-md-first text-center">
-              <i class="icon-mobile service-icon text-muted"></i>
+              <img width="450px" src="/assets/img/mob_dev.png" alt="Mobile development Image">
           </div>
         </div>
 
@@ -158,15 +231,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row gap-y align-items-center">
           <div class="col-md-6 mr-auto">
             <h4>Web Development</h4>
-            <p>
-              Modular web applications with Vuejs, Nodejs, MongoDB and all the tools to scale your product limitless.
-              We carefully analyse your idea and implement it with extendability in mind.
+            <p class="lead">
+              With our end to end expertise, we build <span class="text-warning"><strong>cost effective</strong></span> modular web applications with latest technologies to scale your product limitless.
+              We carefully analyse your idea and implement it with <span class="text-info"><strong>extendability</strong></span> in mind.
             </p>
-            <a id="ctaWeb" class="btn btn-round bg-gradient-dark text-white" href="#contact">Let's Get in Touch</a>
+            <ul class="list-unstyled">
+              <li>
+                <span class="badge badge-circle badge-dark mr-2"><i class="fa fa-check text-white"></i></span>
+                UI/UX and Wireframes
+              </li>
+              <li>
+                <span class="badge badge-circle badge-dark mr-2"><i class="fa fa-check text-white"></i></span>
+                Pixel Perfect
+              </li>
+              <li>
+                <span class="badge badge-circle badge-dark mr-2"><i class="fa fa-check text-white"></i></span>
+                Compatible across devices
+              </li>
+              <li>
+                <span class="badge badge-circle badge-dark mr-2"><i class="fa fa-check text-white"></i></span>
+                Highly Scalable and Secure Backend
+              </li>
+              <li>
+                <span class="badge badge-circle badge-dark mr-2"><i class="fa fa-check text-white"></i></span>
+                Multi User Access
+              </li>
+            </ul>
+            <a id="ctaWeb" class="btn btn-round bg-gradient-dark text-white mt-5" href="#contact">Let's Explore</a>
           </div>
 
           <div class="col-md-5 text-center">
-              <i class="icon-laptop service-icon text-muted"></i>
+              <img width="450px" src="/assets/img/web_dev.png" alt="web development Image">
           </div>
         </div>
 
@@ -177,16 +272,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row gap-y align-items-center">
           <div class="col-md-6 ml-auto">
             <h4>Backend and API development</h4>
-            <p>
-              Nodejs and Express are the new standard for exterprises and startups. We develop APIs and backend for 
-              applications including but not limited to Chat, Realtime applications, SAAS platforms, which scales
-              limitless. Also documentation is a key factor in API development hence we follow standard OpenAPI Specification.
+            <p class="lead">
+              Our experts design and engineer solutions which are <span class="text-warning"><strong>plug-n-play</strong></span> and modular. 
+              Integrate new tools, features and third party solutions into <span class="text-info"><strong>existing systems</strong></span> with our expertise.
             </p>
-            <a id="ctaAPI" class="btn btn-round bg-gradient-info text-white" href="#contact">Know more</a>
+            <ul class="list-unstyled">
+              <li>
+                <span class="badge badge-circle badge-info mr-2"><i class="fa fa-check text-white"></i></span>
+                Customized solutions
+              </li>
+              <li>
+                <span class="badge badge-circle badge-info mr-2"><i class="fa fa-check text-white"></i></span>
+                Third party integrations
+              </li>
+              <li>
+                <span class="badge badge-circle badge-info mr-2"><i class="fa fa-check text-white"></i></span>
+                Scalable and Secure
+              </li>
+              <li>
+                <span class="badge badge-circle badge-info mr-2"><i class="fa fa-check text-white"></i></span>
+                Backend for AI/ML, IoT, Data analytics and more
+              </li>
+              <li>
+                <span class="badge badge-circle badge-info mr-2"><i class="fa fa-check text-white"></i></span>
+                Documentation
+              </li>
+            </ul>
+            <a id="ctaAPI" class="btn btn-round bg-gradient-info text-white mt-5" href="#contact">Let's Talk</a>
           </div>
 
           <div class="col-md-5 order-md-first text-center">
-              <i class="icon-gears service-icon text-muted"></i>
+              <img width="400px" src="/assets/img/api_backend.png" alt="API backend development Image">
           </div>
         </div>
 
@@ -198,12 +314,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       | How it works
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       !-->
-    <section class="section" id="process">
+    <section class="section" id="whyeilarc">
       <div class="container">
         <header class="section-header">
-          <h2>How Does It Work?</h2>
+          <h2>Why choose Eilarc?</h2>
           <hr>
-          <p class="lead">We provide the complete suit of processes and tools so you never have to worry about finding different pieces of your product. Let us help you with your idea and concept to requirement creation and final product.</p>
+          <p class="lead">We provide the <span class="text-info"><strong>complete suit of processes</strong></span> and tools so you never have to worry about finding different pieces of your product. Let us help you with your idea and concept to requirement creation and final product.
+            <span class="text-success"><strong>Our solutions are cost effective</strong></span> and we follow a simple <span class="text-warning"><strong>transparent process</strong></span> to deliver solutions faster, because we know your business depends on it.
+          </p>
         </header>
 
         <div class="row gap-y align-items-center py-7">
@@ -555,7 +673,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <li>
                   <strong>Technologies</strong>
-                  <span>Flutter, Nodejs, MongoDB, Vuejs, Google Cloud</span>
+                  <span>Flutter, Nodejs, MongoDB, Vuejs, Redis, Kubernetes, Google Cloud</span>
                 </li>
               </ul>
             </div>
@@ -588,7 +706,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container">
 
         <h2 class="text-center">Let's Get In Touch</h2>
-
+        <p class="lead">We understand and analyse your requirements carefully to deliver exceptional solutions. Get a free quote and a free consultation now.</p>
         <form class="row gap-y mt-8" action="https://formspree.io/hello@eilarc.io" method="POST">
           <div class="col-lg-6">
 
@@ -617,7 +735,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <textarea class="form-control form-control-lg" rows="4" placeholder="What do you have in mind?" name="message" required></textarea>
             </div>
 
-            <button class="btn btn-lg btn-primary" type="submit">Send message</button>
+            <button class="btn btn-lg btn-primary" type="submit">Get A Free Consultation</button>
 
           </div>
 
@@ -665,6 +783,58 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
+    <!-- Let's Connect Modal -->
+    <div class="modal fade" id="modal-connect" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+
+          <div class="modal-body p-md-0">
+            <div class="row no-gutters">
+              <div class="col-md-6 bg-gradient-secondary d-md-flex rounded-left align-items-center">
+                <div class="text-center px-9">
+                  <h1>Have an idea? Let's Discuss.</h1>
+                  <p>We will get in touch with you to analyse your requirement and provide you a free consultation and offer a free quote.</p>
+                  <hr class="w-20 my-6">
+                  <div>
+                    <span class="d-inline-block w-5 text-info mr-1" title="Email">
+                      <i class="fa fa-envelope"></i>
+                    </span>
+                    <span class="small-1">hello@eilarc.io</span>
+                  </div>  
+                </div>
+              </div>
+
+              <div class="col-md-6 bg-gray mx-auto px-9 py-5">
+                <form class="py-7" action="https://formspree.io/hello@eilarc.io" method="POST">
+                  <div>
+                    <div class="form-row">
+                      <input type="hidden" name="_next" value="https://eilarc.io/#thankyou" />
+                      <div class="form-group col-md-6">
+                        <input class="form-control form-control-lg" type="text" name="firstname" placeholder="First Name" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input class="form-control form-control-lg" type="text" name="lastname" placeholder="Last Name" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control form-control-lg" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control form-control-lg" type="text" name="phone" placeholder="Phone">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control form-control-lg" rows="4" placeholder="What do you have in mind?" name="message" required></textarea>
+                    </div>
+                    <button class="btn btn-lg btn-info" type="submit">Get A Free Quote</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
@@ -706,6 +876,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Scripts -->
     <script src="assets/js/page.min.js"></script>
+    <script src="//code.tidio.co/6ls9mgabic85oaeaqnzs8tkiaiuooolf.js" async></script>
     <!-- <script src="assets/js/script.js"></script> -->
 
 </body>
