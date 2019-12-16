@@ -81,23 +81,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Header -->
   <header class="header h-fullscreen" id="home" style="background-image: url(../assets/img/landing_page.jpg);">
-    <div class="overlay opacity-95" style="background-image: linear-gradient(135deg, #fff 10%, #f2fcfe 40%, transparent 100%);"></div>
+    <div class="d-none d-sm-none d-md-block overlay opacity-95" style="background-image: linear-gradient(135deg, #fff 10%, #f2fcfe 40%, transparent 100%);"></div>
+    <div class="d-none d-sm-block d-md-none overlay opacity-95" style="background-image: linear-gradient(135deg, #fff 10%, #f2fcfe 50%, transparent 100%);"></div>
+    <div class="d-sm-none overlay opacity-95" style="background-image: linear-gradient(135deg, #fff 10%, #f2fcfe 70%, transparent 100%);"></div>
     <div class="container">
       <div class="row align-items-center h-100">
-
-        <div class="col-md-6">
+        <div class="col-sm-10 col-md-6">
           <h1 class="fw-600">Expert Web, Mobile and Backend engineers</h1>
           <br>
           <p class="lead-2">We are experienced engineers and architects with years of experience in developing web, mobile
             AI/ML, IoT, and Cloud solutions. Our expertise enables us to develop high performance, scalable and secure applications
             with cloud and latest technologies.</p>
+          <ul class="list-unstyled">
+            <li>
+              <span class="badge badge-circle badge-success mr-2"><i class="fa fa-check text-white"></i></span>
+              <strong>Truly Cost Effective Development</strong>
+            </li>
+            <li>
+              <span class="badge badge-circle badge-success mr-2"><i class="fa fa-check text-white"></i></span>
+              <strong>Faster Delivery</strong>
+            </li>
+            <li>
+              <span class="badge badge-circle badge-success mr-2"><i class="fa fa-check text-white"></i></span>
+              <strong>Exceptional Quality</strong>
+            </li>
+          </ul>
           <br>
-          <a id="ctaHome" class="btn btn-xl btn-round btn-info" href="#whyeilarc">Why Choose Eilarc?</a>
+          <a id="ctaWhyErc" class="btn btn-lg btn-info btn-round" href="#whyeilarc">Why Choose Eilarc?</a>
+          <a id="ctaHome" class="d-md-none mt-3 btn btn-lg btn-round btn-success" href="#contact">Get A Free Consultation</a>
         </div>
-
-        <div class="col-md-2"></div>
-
-        <div class="col-md-4 bg-white px-7 py-7 rounded shadow-4 text-center">
+        <div class="d-none d-md-block col-md-2"></div>
+        <div class="d-none d-md-block col-md-4 bg-white px-7 py-7 rounded shadow-4 text-center">
           <h2>Let's get in touch</h2>
           <form class="mt-5" action="https://formspree.io/hello@eilarc.io" method="POST">
             <div>
@@ -144,7 +158,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </header>
 
         <div class="row gap-y align-items-center">
-          <div class="col-md-6 mr-auto">
+          <div class="col-md-5 text-center">
+            <img width="450px" src="/assets/img/ai_ml.png" alt="AI ML Image">
+          </div>
+          <div class="col-md-6 order-md-first mr-auto">
             <h4>AI & ML Engines</h4>
             <p class="lead">
               Bring <span class="text-warning"><strong>intelligence</strong></span> into your products with our AI/ML solutions.
@@ -175,16 +192,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </ul>
             <a id="ctaAIML" class="btn btn-round bg-gradient-danger text-white mt-5" href="#contact">Let's Get in Touch</a>
           </div>
-
-          <div class="col-md-5 text-center">
-              <img width="450px" src="/assets/img/ai_ml.png" alt="AI ML Image">
-          </div>
         </div>
 
 
         <hr class="my-8">
 
         <div class="row gap-y align-items-center">
+          <div class="col-md-5 text-center">
+            <img width="450px" src="/assets/img/mob_dev.png" alt="Mobile development Image">
+          </div>
           <div class="col-md-6 ml-auto">
             <h4>Mobile Development</h4>
             <p class="lead"> Reduce development time and maintenance with <span class="text-warning"><strong>lighting fast</strong></span> native cross platform mobile apps built with Flutter.
@@ -218,10 +234,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </ul>
             <a id="ctaMobile" class="btn btn-round bg-gradient-primary text-white mt-5" href="#contact">Let's Connect</a>
           </div>
-
-          <div class="col-md-5 order-md-first text-center">
-              <img width="450px" src="/assets/img/mob_dev.png" alt="Mobile development Image">
-          </div>
         </div>
 
 
@@ -229,7 +241,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         <div class="row gap-y align-items-center">
-          <div class="col-md-6 mr-auto">
+          <div class="col-md-5 text-center">
+            <img width="450px" src="/assets/img/web_dev.png" alt="web development Image">
+          </div>
+          <div class="col-md-6 order-md-first mr-auto">
             <h4>Web Development</h4>
             <p class="lead">
               With our end to end expertise, we build <span class="text-warning"><strong>cost effective</strong></span> modular web applications with latest technologies to scale your product limitless.
@@ -259,10 +274,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </ul>
             <a id="ctaWeb" class="btn btn-round bg-gradient-dark text-white mt-5" href="#contact">Let's Explore</a>
           </div>
-
-          <div class="col-md-5 text-center">
-              <img width="450px" src="/assets/img/web_dev.png" alt="web development Image">
-          </div>
         </div>
 
 
@@ -270,6 +281,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         <div class="row gap-y align-items-center">
+          <div class="col-md-5 order-md-first text-center">
+              <img width="400px" src="/assets/img/api_backend.png" alt="API backend development Image">
+          </div>
           <div class="col-md-6 ml-auto">
             <h4>Backend and API development</h4>
             <p class="lead">
@@ -299,10 +313,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
             </ul>
             <a id="ctaAPI" class="btn btn-round bg-gradient-info text-white mt-5" href="#contact">Let's Talk</a>
-          </div>
-
-          <div class="col-md-5 order-md-first text-center">
-              <img width="400px" src="/assets/img/api_backend.png" alt="API backend development Image">
           </div>
         </div>
 
